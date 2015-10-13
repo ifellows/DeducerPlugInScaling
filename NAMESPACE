@@ -1,0 +1,11 @@
+exportPattern("^[[:alpha:]]+")
+import(
+  Deducer,
+  psych,
+  GPArotation,
+  mvnormtest,
+  irr,
+  klaR,
+  rJava
+)
+importFrom("JGR", jgr.addMenuSeparator, jgr.addMenuItem, jgr.getMenuNames, jgr.insertMenu, jgr.addMenu)
